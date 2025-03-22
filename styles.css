@@ -1,0 +1,28 @@
+/* styles.css */
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Coiny', cursive;
+}
+
+/* Navbar link hover & active */
+.nav-link:hover,
+.nav-link:focus {
+  color: #28a745;
+  text-decoration: underline;
+}
+
+.nav-link:active {
+  color: #1e7e34;
+  font-weight: bold;
+}
+
+/* Dropdown item highlight */
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #28a745;
+  color: #fff;
+}

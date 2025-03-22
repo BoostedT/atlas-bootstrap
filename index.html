@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Golf Central</title>
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="#">Golf Central</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#banner">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gear">Gear</a></li>
+        <li class="nav-item"><a class="nav-link" href="#lessons">Lessons</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <section id="banner" class="jumbotron text-center bg-success text-white">
+    <div class="container">
+      <h1 class="display-4">Welcome to Golf Central</h1>
+      <p class="lead">Where passion meets precision on the green.</p>
+    </div>
+  </section>
+
+  <!-- Single Item Carousel -->
+  <section class="container mb-5">
+    <h2 class="text-center mb-4">Pro Tips</h2>
+    <div id="quoteCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <img src="https://via.placeholder.com/400x250" class="d-block w-100" alt="Pro 1">
+            </div>
+            <div class="col-md-6">
+              <p>"Focus on your stance and alignment before every shot."</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <img src="https://via.placeholder.com/400x250" class="d-block w-100" alt="Pro 2">
+            </div>
+            <div class="col-md-6">
+              <p>"Drive for show, putt for dough."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#quoteCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#quoteCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Multi-Item Carousel -->
+  <section id="gear" class="container mb-5">
+    <h2 class="text-center mb-4">Top Gear</h2>
+    <div id="gearCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+              <div class="card h-100 text-center">
+                <img class="card-img-top" src="https://golfweek.usatoday.com/wp-content/uploads/sites/87/2020/01/Callaway-Mavrik-Driver.jpg"
+                  class="card-img-top img-fluid" alt="Callaway Mavrik Driver">
+                <div class="card-body">
+                  <h5 class="card-title">Callaway Mavrik Driver</h5>
+                  <p class="card-text">Forged titanium clubface for max distance and control.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+              <div class="card h-100 text-center">
+                <img
+                  src="prov1.png"
+                  class="card-img-top img-fluid" alt="Titleist Pro V1 Balls">
+                <div class="card-body">
+                  <h5 class="card-title">Titleist Pro V1</h5>
+                  <p class="card-text">Tour-level feel, control, and distance off the tee.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+              <div class="card h-100 text-center">
+                <img
+                  src="SPDRTOURDBLBENDBACK.png"
+                  class="card-img-top img-fluid" alt="TaylorMade Spider Putter">
+                <div class="card-body">
+                  <h5 class="card-title">TaylorMade Spider Putter</h5>
+                  <p class="card-text">Smooth roll and precision alignment in one sleek putter.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+              <div class="card h-100 text-center">
+                <img src="NIKE+TOUR+CLASSIC+IV+GG+REG+L.png" class="card-img-top img-fluid"
+                  alt="Nike Golf Glove">
+                <div class="card-body">
+                  <h5 class="card-title">Nike Golf Glove</h5>
+                  <p class="card-text">Comfortable grip with breathable fabric for all-day play.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#gearCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#gearCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+  </section>
+
+  <!-- Dropdown Section -->
+  <section class="container mb-5">
+    <h2 class="text-center">Pick a Skill</h2>
+    <div class="dropdown text-center mb-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">Select Skill</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Driving</a>
+        <a class="dropdown-item" href="#">Putting</a>
+        <a class="dropdown-item" href="#">Chipping</a>
+      </div>
+    </div>
+    <p class="text-center">Learn techniques tailored to your chosen skill.</p>
+  </section>
+
+  <!-- Section with Aside -->
+  <section class="container mb-5">
+    <div class="row">
+      <aside class="col-md-4 mb-3">
+        <h4>Fun Fact</h4>
+        <p>The longest drive ever recorded was 515 yards!</p>
+      </aside>
+      <div class="col-md-8">
+        <h4>Tip of the Day</h4>
+        <p>Always warm up before hitting the course to avoid injury and improve performance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Free Section -->
+  <section class="container mb-5">
+    <h2 class="text-center">Top 5 Courses</h2>
+    <div class="row">
+      <div class="col-12 col-sm-6 col-lg-4 mb-3">
+        <img src="augusta-national.jpg" class="img-fluid mb-2" alt="Augusta National">
+        <p>Augusta National</p>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 mb-3">
+        <img src="pebble-beach.png" class="img-fluid mb-2" alt="Pebble Beach">
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 mb-3">
+        <img src="St-Andrews-Oldd-Course.jpg" class="img-fluid mb-2" alt="St. Andrews">
+      </div>
+      <div class="col-12 col-sm-6 col-lg-6 mb-3">Torrey Pines</div>
+      <div class="col-12 col-sm-6 col-lg-6 mb-3">Royal Melbourne</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p>Golf Central © 2025 | Designed by You</p>
+    <p>
+      <a href="#" class="text-white mx-2">Twitter</a>
+      <a href="#" class="text-white mx-2">Instagram</a>
+      <a href="#" class="text-white mx-2">Email</a>
+    </p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
