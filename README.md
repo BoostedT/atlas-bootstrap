@@ -26,4 +26,4 @@ Golf Central is a simple, responsive website that highlights popular golf gear a
 
 This project was created as part of my front-end learning at **Atlas School**, focusing on responsive design and Bootstrap fundamentals.
 
-![Golf Central Screenshot](images/screenshot.png)
+![Golf Central Screenshot](images/golfcentral.png)
