@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Golf Central</title>
   <link rel="stylesheet" href="styles.css" />
 
   <!-- Google Fonts -->
@@ -17,20 +16,25 @@
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <a class="navbar-brand" href="#">Golf Central</a>
+<nav class="navbar navbar-expand-md navbar-light bg-light py-0">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex py-0 align-items-center" href="#">
+      <img src="images/logo.png" alt="Golf Central" style="height: 100px;">
+    </a>
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" href="#banner">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#gear">Gear</a></li>
-        <li class="nav-item"><a class="nav-link" href="#lessons">Lessons</a></li>
+        <li class="nav-item"><a class="nav-link text-dark" href="#banner">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-dark" href="#gear">Gear</a></li>
+        <li class="nav-item"><a class="nav-link text-dark" href="#lessons">Lessons</a></li>
       </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <!-- Banner -->
   <section id="banner" class="jumbotron text-center bg-success text-white">
@@ -45,107 +49,131 @@
     <h2 class="text-center mb-4">Pro Tips</h2>
     <div id="quoteCarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
+
+        <!-- Slide 1 -->
         <div class="carousel-item active">
-          <div class="row align-items-center">
-            <div class="col-md-6">
-              <img src="https://via.placeholder.com/400x250" class="d-block w-100" alt="Pro 1">
-            </div>
-            <div class="col-md-6">
-              <p>"Focus on your stance and alignment before every shot."</p>
+          <div class="d-flex align-items-center justify-content-center">
+            <div class="text-center">
+              <blockquote class="blockquote">
+                <p class="mb-0 font-italic">“I have to believe in myself. I know what I can do, what I can achieve.”</p>
+                <footer class="blockquote-footer mt-2">Sergio Garcia</footer>
+              </blockquote>
             </div>
           </div>
         </div>
+
+        <!-- Slide 2 -->
         <div class="carousel-item">
-          <div class="row align-items-center">
-            <div class="col-md-6">
-              <img src="https://via.placeholder.com/400x250" class="d-block w-100" alt="Pro 2">
-            </div>
-            <div class="col-md-6">
-              <p>"Drive for show, putt for dough."</p>
+          <div class="d-flex align-items-center justify-content-center">
+            <div class="text-center">
+              <blockquote class="blockquote">
+                <p class="mb-0 font-italic">“Golf is the closest game to the game we call life. You get bad breaks from
+                  good shots; you get good breaks from bad shots but you have you have to play the ball where it lies.”
+                </p>
+                <footer class="blockquote-footer mt-2">Phil Mickelson</footer>
+              </blockquote>
             </div>
           </div>
         </div>
+
       </div>
+
+      <!-- Controls -->
       <a class="carousel-control-prev" href="#quoteCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
       </a>
       <a class="carousel-control-next" href="#quoteCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
       </a>
     </div>
   </section>
+
 
   <!-- Multi-Item Carousel -->
   <section id="gear" class="container mb-5">
     <h2 class="text-center mb-4">Top Gear</h2>
     <div id="gearCarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
+        <!-- First Slide -->
         <div class="carousel-item active">
           <div class="row">
+            <!-- Callaway Driver -->
             <div class="col-12 col-md-6 col-lg-3 mb-3">
-              <div class="card h-100 text-center">
-                <img class="card-img-top" src="https://golfweek.usatoday.com/wp-content/uploads/sites/87/2020/01/Callaway-Mavrik-Driver.jpg"
-                  class="card-img-top img-fluid" alt="Callaway Mavrik Driver">
-                <div class="card-body">
-                  <h5 class="card-title">Callaway Mavrik Driver</h5>
-                  <p class="card-text">Forged titanium clubface for max distance and control.</p>
+              <a href="https://www.callawaygolf.com/golf-clubs/drivers/drivers-2022-mavrik.html"
+                class="text-decoration-none text-dark">
+                <div class="card h-100 text-center border-0">
+                  <img
+                    src="https://golfweek.usatoday.com/wp-content/uploads/sites/87/2020/01/Callaway-Mavrik-Driver.jpg"
+                    class="img-fluid mx-auto d-block" style="height: 200px; object-fit: contain;"
+                    alt="Callaway Mavrik Driver">
+                  <div class="card-body">
+                    <h5 class="card-title">Callaway Mavrik Driver</h5>
+                    <p class="card-text">Forged titanium clubface for max distance and control.</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
+            <!-- Titleist Pro V1 -->
             <div class="col-12 col-md-6 col-lg-3 mb-3">
-              <div class="card h-100 text-center">
-                <img
-                  src="images/prov1.png"
-                  class="card-img-top img-fluid" alt="Titleist Pro V1 Balls">
-                <div class="card-body">
-                  <h5 class="card-title">Titleist Pro V1</h5>
-                  <p class="card-text">Tour-level feel, control, and distance off the tee.</p>
+              <a href="https://www.titleist.com/product/pro-v1/005PV1T.html" class="text-decoration-none text-dark">
+                <div class="card h-100 text-center border-0">
+                  <img src="images/prov1.png" class="img-fluid mx-auto d-block"
+                    style="height: 200px; object-fit: contain;" alt="Titleist Pro V1 Balls">
+                  <div class="card-body">
+                    <h5 class="card-title">Titleist Pro V1</h5>
+                    <p class="card-text">Tour-level feel, control, and distance off the tee.</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
+            <!-- TaylorMade Spider -->
             <div class="col-12 col-md-6 col-lg-3 mb-3">
-              <div class="card h-100 text-center">
-                <img
-                  src="images/SPDRTOURDBLBENDBACK.png"
-                  class="card-img-top img-fluid" alt="TaylorMade Spider Putter">
-                <div class="card-body">
-                  <h5 class="card-title">TaylorMade Spider Putter</h5>
-                  <p class="card-text">Smooth roll and precision alignment in one sleek putter.</p>
+              <a href="https://www.taylormadegolf.com/Spider-Tour/DW-TC844.html?lang=en_US"
+                class="text-decoration-none text-dark">
+                <div class="card h-100 text-center border-0">
+                  <img src="images/SPDRTOURDBLBENDBACK.png" class="img-fluid mx-auto d-block"
+                    style="height: 200px; object-fit: contain;" alt="TaylorMade Spider Putter">
+                  <div class="card-body">
+                    <h5 class="card-title">TaylorMade Spider Putter</h5>
+                    <p class="card-text">Smooth roll and precision alignment in one sleek putter.</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
+            <!-- Nike Glove -->
             <div class="col-12 col-md-6 col-lg-3 mb-3">
-              <div class="card h-100 text-center">
-                <img src="images/NIKE+TOUR+CLASSIC+IV+GG+REG+L.png" class="card-img-top img-fluid"
-                  alt="Nike Golf Glove">
-                <div class="card-body">
-                  <h5 class="card-title">Nike Golf Glove</h5>
-                  <p class="card-text">Comfortable grip with breathable fabric for all-day play.</p>
+              <a href="https://www.nike.com/t/storm-fit-golf-gloves-1-pair-SwQx4h/N1006788-069"
+                class="text-decoration-none text-dark">
+                <div class="card h-100 text-center border-0">
+                  <img src="images/NIKE+STORM-FIT+GG.png" class="img-fluid mx-auto d-block"
+                    style="height: 200px; object-fit: contain;" alt="Nike Golf Glove">
+                  <div class="card-body">
+                    <h5 class="card-title">Nike Golf Glove</h5>
+                    <p class="card-text">Comfortable grip with breathable fabric for all-day play.</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#gearCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-          </a>
-          <a class="carousel-control-next" href="#gearCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-          </a>
         </div>
+      </div>
+    </div>
   </section>
 
   <!-- Dropdown Section -->
-  <section class="container mb-5">
+  <section class="container mb-5" id="lessons">
     <h2 class="text-center">Pick a Skill</h2>
     <div class="dropdown text-center mb-3">
       <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">Select Skill</button>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Driving</a>
-        <a class="dropdown-item" href="#">Putting</a>
-        <a class="dropdown-item" href="#">Chipping</a>
+        <a class="dropdown-item" href="https://www.youtube.com/watch?v=uleQ-RJMFGE">Driving</a>
+        <a class="dropdown-item" href="https://www.youtube.com/watch?v=75BzaJkGjSI">Putting</a>
+        <a class="dropdown-item" href="https://www.youtube.com/watch?v=G8EXcV0HKzA">Chipping</a>
       </div>
     </div>
-    <p class="text-center">Learn techniques tailored to your chosen skill.</p>
+    <p class="text-center">Watch videos based on the skill you choose</p>
   </section>
 
   <!-- Section with Aside -->
@@ -164,33 +192,78 @@
 
   <!-- Free Section -->
   <section class="container mb-5">
-    <h2 class="text-center">Top 5 Courses</h2>
-    <div class="row">
-      <div class="col-12 col-sm-6 col-lg-4 mb-3">
-        <img src="images/augusta-national.jpg" class="img-fluid mb-2" alt="Augusta National">
+    <h2 class="text-center font-weight-bold mb-4">Top 5 Courses</h2>
+
+    <div id="golfCoursesCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#golfCoursesCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#golfCoursesCarousel" data-slide-to="1"></li>
+        <li data-target="#golfCoursesCarousel" data-slide-to="2"></li>
+        <li data-target="#golfCoursesCarousel" data-slide-to="3"></li>
+        <li data-target="#golfCoursesCarousel" data-slide-to="4"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/augusta-national.jpg" class="d-block w-100" alt="Augusta National">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Augusta National</h5>
+            <p>Home of The Masters, Georgia, USA</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/pebble-beach.png" class="d-block w-100" alt="Pebble Beach">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Pebble Beach</h5>
+            <p>Iconic ocean views in California</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/St-Andrews-Oldd-Course.jpg" class="d-block w-100" alt="St. Andrews">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>St. Andrews</h5>
+            <p>The Old Course, Scotland — golf's birthplace</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/torreypines.jpg" class="d-block w-100" alt="Torrey Pines">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Torrey Pines</h5>
+            <p>The nation's foremost municipal golf course situated atop cliffs towering above the Pacific Ocean in San
+              Diego, California.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/royal.jpg" class="d-block w-100" alt="Royal Melbourne">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Royal Melbourne</h5>
+            <p>Australia’s top-ranked golf course</p>
+          </div>
+        </div>
       </div>
-      <div class="col-12 col-sm-6 col-lg-4 mb-3">
-        <img src="images/pebble-beach.png" class="img-fluid mb-2" alt="Pebble Beach">
-      </div>
-      <div class="col-12 col-sm-6 col-lg-4 mb-3">
-        <img src="images/pebble-beach.png" class="img-fluid mb-2" alt="St. Andrews">
-      </div>
-      <div class="col-12 col-sm-6 col-lg-6 mb-3">'
-        <img src="images/torreypines.jpg" class="img-fluid mb-2" alt="Torrey Pines">
-      </div>
-      <div class="col-12 col-sm-6 col-lg-6 mb-3">
-        <img src="images/royal.jpg" class="img-fluid mb-2" alt="Royal Melbourne">
-      </div>
+
+      <a class="carousel-control-prev" href="#golfCoursesCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#golfCoursesCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-4">
-    <p>Golf Central © 2025 | Designed by You</p>
+    <p>Golf Central © 2025 | Designed by Tyler Whitchurch</p>
     <p>
-      <a href="#" class="text-white mx-2">Twitter</a>
-      <a href="#" class="text-white mx-2">Instagram</a>
-      <a href="#" class="text-white mx-2">Email</a>
+      <a href="https://x.com/" class="text-white mx-2">X</a>
+      <a href="https://Instagram.com" class="text-white mx-2">Instagram</a>
+      <a href="https://facebook.com" class="text-white mx-2">Facebook</a>
     </p>
   </footer>
 
