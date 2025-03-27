@@ -30,7 +30,7 @@ This project was created as part of my front-end learning at **Atlas School**, f
 
 ## Tasks
   
-1. Header - Header and Hamburger menu on mobile Located at Top page.
+1. Header - Header and Hamburger menu on mobile Located at Top page. ![Header Img] (images/header.png)
 2. Banner - Open section located under navbar
 3. Single Item Carousel - (Pro-Tips) Control is invisible
 4. Multiple Item Carousel - (Top Gear) this section has working links and hover effects.
@@ -39,4 +39,5 @@ This project was created as part of my front-end learning at **Atlas School**, f
 7. Free Section - (Top 5 Courses)
 8. Footer - Can be located at bottom of page with social media icons
 9. Github Pages - https://boostedt.github.io/atlas-bootstrap/
+
 ![Golf Central Screenshot](images/golfcentral.png)
