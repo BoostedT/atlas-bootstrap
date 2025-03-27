@@ -21,6 +21,7 @@ Golf Central is a simple, responsive website that highlights popular golf gear a
 
 1. Open `index.html` in a web browser.
 2. Make sure the `images/` folder and `styles.css` are in the same directory.
+3. The Pro Tip Section has a control that is invisible you need to click to the left or right of the quote to change them.
 
 ## Project Purpose
 

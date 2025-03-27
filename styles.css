@@ -6,21 +6,31 @@ h1, h2, h3, h4 {
   font-family: 'Coiny', cursive;
 }
 
-/* Navbar link hover & active */
-.nav-link:hover,
-.nav-link:focus {
-  color: #28a745;
-  text-decoration: underline;
+/* Footer styles */
+footer a img {
+  transition: transform 0.4s ease;
 }
 
-.nav-link:active {
-  color: #1e7e34;
-  font-weight: bold;
+footer a:hover img {
+  transform: rotate(15deg) scale(1.2);
 }
 
-/* Dropdown item highlight */
-.dropdown-item:hover,
-.dropdown-item:focus {
-  background-color: #28a745;
+.dropdown-menu .dropdown-item:hover {
+  background-color: #000000; /* bg for dropdown item hover */
   color: #fff;
 }
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(40, 167, 69, 0.5);
+}
+
+.nav-item:hover .nav-link {
+  transform: matrix(1.1, 0.1, -0.1, 1.1, 5, -5);
+  transition: transform 0.3s ease;
+}
+
