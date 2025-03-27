@@ -27,4 +27,16 @@ Golf Central is a simple, responsive website that highlights popular golf gear a
 
 This project was created as part of my front-end learning at **Atlas School**, focusing on responsive design and Bootstrap fundamentals.
 
+
+## Tasks
+  
+1. Header - Header and Hamburger menu on mobile Located at Top page.
+2. Banner - Open section located under navbar
+3. Single Item Carousel - (Pro-Tips) Control is invisible
+4. Multiple Item Carousel - (Top Gear) this section has working links and hover effects.
+5. Dropdown Menu - (Pick a Skill) located under the Top gear section
+6. Aside Section - (Fun Fact, Tip of the day)
+7. Free Section - (Top 5 Courses)
+8. Footer - Can be located at bottom of page with social media icons
+9. Github Pages - https://boostedt.github.io/atlas-bootstrap/
 ![Golf Central Screenshot](images/golfcentral.png)
