@@ -2,6 +2,13 @@
 
 Golf Central is a simple, responsive website that highlights popular golf gear and offers helpful tips for players. It was built using **HTML**, **CSS**, and **Bootstrap 4.4**.
 
+## 👨‍💻 About the Developer
+Hi, I’m Tyler — a full-stack developer and USMC veteran currently studying at **Atlas School**.  
+I enjoy building projects that combine design, usability, and technical skills to create something practical and fun.  
+
+- [LinkedIn](https://www.linkedin.com/in/tylerwhitchurch
+- [Portfolio Projects](https://github.com/boostedt?tab=repositories)  
+
 ## Features
 
 - Navigation bar with logo and page links
