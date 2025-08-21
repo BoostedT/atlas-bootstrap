@@ -7,7 +7,6 @@ Hi, I’m Tyler — a full-stack developer and USMC veteran currently studying a
 I enjoy building projects that combine design, usability, and technical skills to create something practical and fun.  
 
 - [LinkedIn](https://www.linkedin.com/in/tylerwhitchurch
-- [Portfolio Projects](https://github.com/boostedt?tab=repositories)  
 
 ## Features
 
